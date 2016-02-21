@@ -1,0 +1,21 @@
+
+domain: jusepas.github.io
+url: http://jusepas.github.io
+
+encoding: utf-8
+
+permalink: ./:year/:month/:title/
+
+exclude:
+  - README.md
+  - package.json
+  - Gruntfile.js
+  - less/
+
+
+gems:
+  - jekyll-sitemap
+
+markdown: kramdown
+
+highlighter: rouge
